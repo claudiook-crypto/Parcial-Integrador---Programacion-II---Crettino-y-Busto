@@ -1,0 +1,75 @@
+body {
+margin: 0;
+font-family: Arial;
+background-color: #111;
+color: white;
+}
+
+header {
+background: black;
+padding: 15px;
+display: flex;
+justify-content: space-between;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+gap: 15px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+}
+
+.hero {
+text-align: center;
+padding: 50px;
+background: purple;
+}
+
+.cards {
+display: flex;
+gap: 20px;
+padding: 20px;
+flex-wrap: wrap;
+}
+
+.card {
+background: #222;
+padding: 15px;
+border-radius: 10px;
+box-shadow: 0 0 10px black;
+transition: transform 0.3s;
+}
+
+.card:hover {
+transform: scale(1.05);
+}
+
+form {
+display: flex;
+flex-direction: column;
+gap: 10px;
+padding: 20px;
+}
+
+button {
+background: purple;
+color: white;
+border: none;
+padding: 10px;
+cursor: pointer;
+}
+
+button:hover {
+background: violet;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+.cards {
+flex-direction: column;
+}
+}
