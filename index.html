@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda Gamer</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header>
+    
   <h1>Tienda Gamer OldSchool</h1>
   <nav>
     <ul>
@@ -19,25 +21,30 @@
 </header>
 
 <section class="hero">
-   <h2>Bienvenidos al mundo gamer </h2>
+   <h2>Bienvenidos al mundo gamer</h2>
    <button onclick="cambiarColor()">Cambiar fondo</button>
 </section>
 
 <section id="productos">
    <h2>Productos Destacados</h2>
-   <div class="cards">
-   <div class="card">
-   <img src="https://i.ebayimg.com/images/g/s4cAAOSwM~hlqxUr/s-l1200.jpg" alt="Producto 1">
-   <h3>PlayStation 2 chipeada</h3>
-   </div>
-    <div class="card">
-    <img src="https://i5.walmartimages.com/seo/Authentic-PlayStation-Portable-PSP-3000-Console-Piano-Black-Official-Memory-Card_18fcfe3d-7cfb-481c-8bde-329c09b1b3af.288f6d733f9c10990cb051326931d69f.jpeg" alt="Producto 2">
-    <h3>PSP</h3>
-   </div>
-    <div class="card">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRid0uNS4qkXKF9HqidDuszYsG1AT8ejA2SFw&s" alt="Producto 3">
-    <h3>Nintendo Wii</h3>
-   </div>
+
+   <div class="tarjetas">
+
+     <div class="tarjeta">
+       <img src="https://i.ebayimg.com/images/g/s4cAAOSwM~hlqxUr/s-l1200.jpg" alt="PS2">
+       <h3>PlayStation 2 chipeada</h3>
+     </div>
+
+     <div class="tarjeta">
+       <img src="https://i5.walmartimages.com/seo/Authentic-PlayStation-Portable-PSP-3000-Console-Piano-Black-Official-Memory-Card_18fcfe3d-7cfb-481c-8bde-329c09b1b3af.288f6d733f9c10990cb051326931d69f.jpeg" alt="PSP">
+       <h3>PSP</h3>
+     </div>
+
+     <div class="tarjeta">
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRid0uNS4qkXKF9HqidDuszYsG1AT8ejA2SFw&s" alt="Wii">
+       <h3>Nintendo Wii</h3>
+     </div>
+
    </div>
 </section>
 
@@ -49,7 +56,7 @@
 
 <section id="contacto">
    <h2>Contacto</h2>
-   <form>
+   <form id="formulario">
      <input type="text" placeholder="Nombre" required>
      <input type="email" placeholder="Email" required>
      <textarea placeholder="Mensaje"></textarea>
@@ -60,9 +67,7 @@
 <footer>
  <p>© 2026 Tienda Gamer</p>
 </footer>
-
+/
 <script src="script.js"></script>
-
-
 </body>
 </html>
