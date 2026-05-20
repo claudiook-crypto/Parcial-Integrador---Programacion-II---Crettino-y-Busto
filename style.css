@@ -29,8 +29,8 @@ nav a {
     background: purple;
 }
 
-/* TARJETAS */
-.cards {
+
+.tarjetas {
     display: flex;
     gap: 20px;
     padding: 20px;
@@ -38,7 +38,7 @@ nav a {
     justify-content: center;
 }
 
-.card {
+.tarjeta {
     background: #222;
     border-radius: 10px;
     box-shadow: 0 0 10px black;
@@ -48,25 +48,25 @@ nav a {
     transition: transform 0.3s;
 }
 
-.card:hover {
+.tarjeta:hover {
     transform: scale(1.05);
 }
 
-/* IMÁGENES IGUALES */
-.card img {
+
+.tarjeta img {
     width: 100%;
     height: 180px;
     object-fit: cover;
 }
 
-/* TEXTO SEPARADO */
-.card h3 {
+
+.tarjeta h3 {
     margin: 0;
     padding: 15px;
     background: #111;
 }
 
-/* FORMULARIO */
+
 form {
     display: flex;
     flex-direction: column;
@@ -86,9 +86,9 @@ button:hover {
     background: violet;
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 768px) {
-    .cards {
+    .tarjetas {
         flex-direction: column;
         align-items: center;
     }
