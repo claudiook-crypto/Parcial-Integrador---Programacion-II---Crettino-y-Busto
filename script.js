@@ -17,7 +17,6 @@ function mostrarMensaje() {
     alert("Nuevos productos disponibles!");
 }
 
-/* FORMULARIO */
 document.getElementById("formulario").addEventListener("submit", function(e){
     e.preventDefault();
     alert("Formulario enviado correctamente");
